@@ -1,7 +1,7 @@
 # jsreport-docxtemplater
 [![NPM Version](http://img.shields.io/npm/v/jsreport-docxtemplater.svg?style=flat-square)](https://npmjs.com/package/jsreport-docxtemplater)
 [![Build Status](https://travis-ci.org/jsreport/jsreport-docxtemplater.png?branch=master)](https://travis-ci.org/jsreport/jsreport-docxtemplater)
-jsreport recipe for creating docx word document using [docxtemplater](https://docxtemplater.com/)
+jsreport recipe for creating docx word document using [docxtemplater](https://docxtemplater.readthedocs.io/en/latest/)
 
 See https://jsreport.net/learn/docxtemplater
 
