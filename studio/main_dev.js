@@ -10,7 +10,7 @@ Studio.addApiSpec({
         encoding: '...',
         content: '...'
       },
-      templateAssetShortid : '...'
+      templateAssetShortid: '...'
     }
   }
 })
