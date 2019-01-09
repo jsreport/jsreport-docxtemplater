@@ -6,10 +6,11 @@ Studio.addPropertiesComponent(Properties.title, Properties, (entity) => entity._
 Studio.addApiSpec({
   template: {
     docxtemplater: {
-      assetTemplate: {
-        shortid: '...',
+      templateAsset: {
+        encoding: '...',
         content: '...'
-      }
+      },
+      templateAssetShortid: '...'
     }
   }
 })
