@@ -7,9 +7,9 @@ module.exports = {
       'docxtemplater': {
         type: 'object',
         properties: {
-          previewInWordOnline: { type: 'boolean', $exposeToApi: true },
+          previewInWordOnline: { type: 'boolean' },
           publicUriForPreview: { type: 'string' },
-          showWordOnlineWarning: { type: 'boolean', default: true, $exposeToApi: true }
+          showWordOnlineWarning: { type: 'boolean', default: true }
         }
       }
     }
