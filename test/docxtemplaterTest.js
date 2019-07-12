@@ -87,7 +87,7 @@ describe('docxtemplater', () => {
   })
 })
 
-describe('docxtemplater with extensions.extensions.docxtemplater.previewInWordOnline === false', () => {
+describe('docxtemplater with extensions.docxtemplater.preview.enabled === false', () => {
   let reporter
 
   beforeEach(() => {
@@ -95,7 +95,7 @@ describe('docxtemplater with extensions.extensions.docxtemplater.previewInWordOn
       templatingEngines: {
         strategy: 'in-process'
       }
-    }).use(require('../')({ previewInWordOnline: false }))
+    }).use(require('../')({ preview: { enabled: false } }))
       .use(require('jsreport-templates')())
       .use(require('jsreport-assets')())
     return reporter.init()

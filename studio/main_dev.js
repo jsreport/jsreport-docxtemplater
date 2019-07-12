@@ -20,7 +20,11 @@ Studio.previewListeners.push((request, entities) => {
     return
   }
 
-  if (Studio.extensions.docxtemplater.options.previewInOfficeOnline === false) {
+  if (Studio.extensions.docxtemplater.options.preview.enabled === false) {
+    return
+  }
+
+  if (Studio.extensions.docxtemplater.options.preview.showWarning === false) {
     return
   }
 
