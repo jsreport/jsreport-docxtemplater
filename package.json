@@ -19,6 +19,7 @@
     "docx"
   ],
   "scripts": {
+    "start": "jsreport-studio-start --httpPort 4800",
     "test": "mocha test --timeout 8000 && standard",
     "build": "jsreport-studio-build",
     "prepublishOnly": "jsreport-studio-build"
@@ -44,9 +45,9 @@
     "babel-eslint": "10.0.2",
     "eslint": "6.0.1",
     "eslint-plugin-babel": "5.3.0",
-    "jsreport-assets": "1.1.4",
+    "jsreport-assets": "github:jsreport/jsreport-assets",
     "jsreport-core": "2.5.0",
-    "jsreport-studio-dev": "1.4.0",
+    "jsreport-studio-dev": "github:jsreport/jsreport-studio-dev",
     "jsreport-templates": "2.2.0",
     "mocha": "6.1.4",
     "should": "13.2.3",
