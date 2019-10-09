@@ -1,6 +1,6 @@
 {
   "name": "jsreport-docxtemplater",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "jsreport recipe using docxtemplater to create docx files",
   "homepage": "https://github.com/jsreport/jsreport-docxtemplater",
   "repository": {
