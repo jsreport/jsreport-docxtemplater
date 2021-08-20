@@ -1,3 +1,6 @@
+**⚠️ This repository has been moved to the monorepo [jsreport/jsreport](https://github.com/jsreport/jsreport)**
+--
+
 # jsreport-docxtemplater
 [![NPM Version](http://img.shields.io/npm/v/jsreport-docxtemplater.svg?style=flat-square)](https://npmjs.com/package/jsreport-docxtemplater)
 [![Build Status](https://travis-ci.org/jsreport/jsreport-docxtemplater.png?branch=master)](https://travis-ci.org/jsreport/jsreport-docxtemplater)
