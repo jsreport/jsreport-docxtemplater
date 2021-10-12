@@ -38,7 +38,7 @@
   "license": "MIT",
   "dependencies": {
     "docxtemplater": "3.16.11",
-    "jsreport-office": "1.2.2",
+    "jsreport-office": "1.2.3",
     "jszip": "2.6.1"
   },
   "devDependencies": {
